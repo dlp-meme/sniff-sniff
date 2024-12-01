@@ -1,3 +1,6 @@
+mod proxy;
+mod logger;
+
 use reqwest::Client;
 use std::fs::OpenOptions;
 use std::io::Write;
